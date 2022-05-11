@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+var x=3;
+{
+ var x=4;
+ }
+ </script>
+ document.getElementById("demo").innerHTML=x;
+ </body>
+ </html>
